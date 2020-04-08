@@ -7,9 +7,6 @@
 int main()
 {
     int i;
-    bool a[10] = {0};
-    for (i = 0; i< (int) (sizeof(a) / sizeof(a[0])) ;i++)
-        printf("a[%d]: %d\n", i, a[i]);
-
+    printf("%d", (4 +1 + 5)% 5);
     return 0;
 }
