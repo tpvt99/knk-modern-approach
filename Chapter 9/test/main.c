@@ -16,4 +16,5 @@ int main()
 void print_haha(int n, int a[n]) {
     printf("n is %d\n", n);
     printf("length of a is %d\n", sizeof(a) / sizeof(a[0]));
+    return ;
 }
