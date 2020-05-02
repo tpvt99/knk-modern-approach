@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1588161626 source:d:\c programming language\knk\chapter 13\e5\main.c
+1588215614 source:d:\c programming language\gfg\chapter 1. c++ foundations\e5\main.c
 	<stdio.h>
 	<stdlib.h>
+	<ctype.h>
 
