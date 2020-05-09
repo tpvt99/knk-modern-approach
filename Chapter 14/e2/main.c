@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define NELEMS(a) (sizeof(a) / sizeof(a[0]))
+#define NELEMS(a) ((int) sizeof(a) / sizeof(a[0]))
 
 int main()
 {
