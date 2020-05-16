@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1589603830 source:d:\c programming language\knk\chapter 15\p1\justify.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"line.h"
+	"word.h"
+
+1589600345 d:\c programming language\knk\chapter 15\p1\line.h
+
+1589599958 d:\c programming language\knk\chapter 15\p1\word.h
+
+1589601374 source:d:\c programming language\knk\chapter 15\p1\line.c
+	<stdio.h>
+	<string.h>
+	"line.h"
+
+1589603800 source:d:\c programming language\knk\chapter 15\p1\word.c
+	"word.h"
+	<stdio.h>
+

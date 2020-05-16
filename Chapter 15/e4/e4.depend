@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1589375030 source:d:\c programming language\knk\chapter 15\e4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"debug.h"
+
+1589375039 d:\c programming language\knk\chapter 15\e4\debug.h
+
