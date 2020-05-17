@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1589686263 source:d:\c programming language\knk\chapter 15\p5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1589686352 source:d:\c programming language\knk\chapter 15\p5\stack.c
+	"stack.h"
+	<stdio.h>
+	<stdlib.h>
+
+1589686275 d:\c programming language\knk\chapter 15\p5\stack.h
+
