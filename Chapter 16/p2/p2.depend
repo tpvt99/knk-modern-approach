@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1590119304 source:d:\c programming language\knk\chapter 16\p2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"readline.h"
+
+1590115522 d:\c programming language\knk\chapter 16\p2\readline.h
+
+1590119314 source:d:\c programming language\knk\chapter 16\p2\readline.c
+	<ctype.h>
+	<stdio.h>
+	"readline.h"
+
