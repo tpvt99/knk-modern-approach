@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1590565038 source:d:\c programming language\knk\chapter 17\e8\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stack.h"
+
+1590564693 d:\c programming language\knk\chapter 17\e8\stack.h
+	<stdbool.h>
+
+1590565192 source:d:\c programming language\knk\chapter 17\e8\stack.c
+	"stack.h"
+	<stdbool.h>
+	<stdlib.h>
+	<stdio.h>
+
