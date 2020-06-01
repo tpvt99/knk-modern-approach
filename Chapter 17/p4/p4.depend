@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1590986816 source:d:\c programming language\knk\chapter 17\p4\justify.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"line.h"
+	"word.h"
+
+1590983183 d:\c programming language\knk\chapter 17\p4\line.h
+
+1589599958 d:\c programming language\knk\chapter 17\p4\word.h
+
+1590987546 source:d:\c programming language\knk\chapter 17\p4\word.c
+	"word.h"
+	<stdio.h>
+
+1590986815 source:d:\c programming language\knk\chapter 17\p4\line.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"line.h"
+
