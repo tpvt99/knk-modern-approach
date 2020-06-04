@@ -50,7 +50,7 @@ void add_word(const char *word) {
         next_word->next = curr;
     }
 
-    line_len += strlen(word);
+    line_len += (strlen(word)+1);
     num_words++;
 }
 
@@ -66,6 +66,7 @@ void flush_line(void) {
                 printf(" ");
         }
     }
+    printf("\n");
 
 }
 
@@ -74,21 +75,24 @@ void write_line(void) {
 
     extra_spaces = MAX_LINE_LEN - line_len;
     struct single_word *head = line;
-    for (;head != NULL;head=head->next) {
+
+    for (;head->next != NULL;head=head->next) { // Must stop 1 before else get divide by 0 because num_words-1 = 0 for the last word
         printf("%s", head->word);
         spaces_to_insert = extra_spaces / (num_words-1);
+        //printf("Extra space: %d, num_words: %d, space insert: %d\n", extra_spaces, num_words, spaces_to_insert);
         for (j=1;j<=spaces_to_insert+1;j++)
             putchar(' ');
         extra_spaces -= spaces_to_insert;
         num_words-=1;
     }
+    printf("%s", head->word);
     putchar('\n');
 }
 
 void print_line(void) {
     printf("h->");
     for (struct single_word *head = line; head != NULL; head = head->next) {
-        printf(head->word);
+        printf("%s->", head->word);
     }
     printf("->NULL\n");
 }

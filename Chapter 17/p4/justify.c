@@ -11,13 +11,11 @@ int main()
     char word[MAX_WORD_LEN+2];
     int word_len;
     clear_line();
+
     for (;;) {
-        print_line();
         read_word(word, MAX_WORD_LEN+1);
-        puts(word);
-        puts("Top 1");
         word_len = strlen(word);
-        puts("Top 1");
+
         if (word_len == 0) {
             flush_line();
             return 0;
@@ -29,7 +27,7 @@ int main()
             write_line();
             clear_line();
         }
+        //printf("Space remaning: %d\n", space_remaining());
         add_word(word);
-        print_line();
     }
 }
