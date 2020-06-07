@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1591449324 source:d:\cprogramminglanguage\knk\chapter19\e3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"queue.h"
+
+1591448075 source:d:\cprogramminglanguage\knk\chapter19\e3\queue.c
+	"queue.h"
+	<stdio.h>
+	<stdlib.h>
+
+1591448067 d:\cprogramminglanguage\knk\chapter19\e3\queue.h
+	<stdbool.h>
+
