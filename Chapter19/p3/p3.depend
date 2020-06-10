@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1591772908 source:d:\cprogramminglanguage\knk\chapter19\p3\stackadt.c
+	<stdio.h>
+	<stdlib.h>
+	"stackADT.h"
+
+1591772896 d:\cprogramminglanguage\knk\chapter19\p3\stackadt.h
+	<stdbool.h>
+
