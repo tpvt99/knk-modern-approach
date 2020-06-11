@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1591873852 source:d:\cprogramminglanguage\knk\chapter19\p6\main.c
+	<stdio.h>
+	"queueADT.h"
+
+1591873840 d:\cprogramminglanguage\knk\chapter19\p6\queueadt.h
+	<stdbool.h>
+
+1591873860 source:d:\cprogramminglanguage\knk\chapter19\p6\queueadt.c
+	<stdio.h>
+	<stdlib.h>
+	"queueADT.h"
+
