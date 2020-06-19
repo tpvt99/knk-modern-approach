@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
+#define islower(c) ((c) >= 'a' && (c) <= 'z')
 
 int main()
 {
     int p = 10;
-    char *a = &p;
-    printf("%p - %p", a, a+1);
+
+    printf("%d",islower('a'));
 
     return 0;
 }
