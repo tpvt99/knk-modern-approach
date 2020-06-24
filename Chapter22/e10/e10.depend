@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1592979356 source:d:\cprogramminglanguage\knk\chapter22\e10\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
