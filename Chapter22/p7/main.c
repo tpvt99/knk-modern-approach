@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
         }
     }
     fputc(count, dest);
-    fputc(ch, dest);
+    fputc(base_ch, dest);
     fclose(fp);
     fclose(dest);
 
