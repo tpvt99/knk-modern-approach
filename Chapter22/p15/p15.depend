@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1594354178 source:d:\cprogramminglanguage\knk\chapter22\p15\line.c
+	<stdio.h>
+	<string.h>
+	"line.h"
+
+1594354266 d:\cprogramminglanguage\knk\chapter22\p15\line.h
+	<stdio.h>
+
+1594354223 source:d:\cprogramminglanguage\knk\chapter22\p15\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"line.h"
+	"word.h"
+
+1594354254 d:\cprogramminglanguage\knk\chapter22\p15\word.h
+	<stdio.h>
+
+1594354083 source:d:\cprogramminglanguage\knk\chapter22\p15\word.c
+	"word.h"
+	<stdio.h>
+
