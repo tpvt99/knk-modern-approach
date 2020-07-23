@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1595386409 source:d:\cprogramminglanguage\knk\chapter23\p5\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
